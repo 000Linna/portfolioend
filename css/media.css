@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+    .hero {
+
+        padding-top: 28px;
+    }
+
+    .header .nav__list {
+        display: none;
+    }
+
+    .hero__main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .hero__content {
+        width: 90%;
+    }
+
+    .hero__img-wrap {
+        width: 90%;
+    }
+
+    .title {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .hero__subtitle {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .hero__btn-wrap {
+        text-align: center;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 15px 25px;
+
+    }
+
+    .achievements {
+
+        padding: 50px 0px;
+
+    }
+
+    .skills__container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .skills__content {
+        padding-top: 80px;
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .skill__img {
+        object-fit: cover;
+    }
+
+    .form__input {
+        flex: 1 0 100%;
+    }
+
+    .form__rows {
+        flex-wrap: wrap;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .footer__user-name {
+        margin-bottom: 10px;
+
+    }
+}
